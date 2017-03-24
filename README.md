@@ -28,18 +28,18 @@ PORT=8080 npm run dev
 # Start production server:
 PORT=8080 npm start
 ```
-Docker Support
+Docker Support (soon)
 ------
 ```sh
-cd express-es6-rest-api
+cd examples-hook-worker
 
 # Build your docker
-docker build -t es6/api-service .
+docker build -t yvnio/examples-hook-worker .
 #            ^      ^           ^
 #          tag  tag name      Dockerfile location
 
 # run your docker
-docker run -p 8080:8080 es6/api-service
+docker run -p 8080:8080 yvnio/examples-hook-worker
 #                 ^            ^
 #          bind the port    container tag
 #          to your host
