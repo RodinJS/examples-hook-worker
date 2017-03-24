@@ -1,4 +1,4 @@
-Express & ES6 REST API Boilerplate
+Examples webhook worker
 ==================================
 
 Rodin Inc. Examples Deployment Automation API.
