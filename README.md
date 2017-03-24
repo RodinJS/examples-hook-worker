@@ -1,6 +1,8 @@
 Express & ES6 REST API Boilerplate
 ==================================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/RodinJS/examples-hook-worker.svg?token=c7225ed6296ea303caf376e8e5e9bed71d6f0d20b981acf92df4e7ed03ceac6c)](https://greenkeeper.io/)
+
 Rodin Inc. Examples Deployment Automation API.
 
 - ES6 support via [babel](https://babeljs.io)
