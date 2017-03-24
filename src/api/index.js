@@ -12,7 +12,7 @@ export default (config) => {
 	});
 
 	api.post('/hook', validate, (req, res) => {	
-		exec(`cd /var/www/samples/ && git pull git@github.com:RodinJS/Rodin-Samples.git`, (error, stdout, stderr) => {
+		exec(`cd /var/www/samples/ && git pull git@github.com:RodinJS/Rodin-Samples.git && gulp`, (error, stdout, stderr) => {
 			if (error) {
 				console.error(`-----> exec error: ${error}`);
 				res.status(400).send({error: error, secret: true, body: req.body});
