@@ -1,5 +1,5 @@
 {
-	"port": 8080,
+	"port": 8443,
 	"bodyLimit": "100kb",
 	"corsHeaders": ["Link"],
 	"secret": "6Rs0q2a20425xkzWSy11W774690fF4E2Z5Z4JWK_mUy794K18aZw0T378ZMn243r"
